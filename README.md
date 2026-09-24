@@ -2,5 +2,9 @@
   <img src="Jupyter4NFDI-top.png" alt="Jupyter4NFDI" width="450">
 </p>
 
-# training-materials-template
-A template for creating training materials for Jupyter4NFDI.  This work is supported by the DFG project no. 521453681. 
+# Working with storage in Jupyter4NFDI
+Self-study materials for learning how to mount external data sources to work with Jupyter4NFDI. 
+
+
+#### Acknowledgements
+This work is supported by the DFG project no. 521453681.
