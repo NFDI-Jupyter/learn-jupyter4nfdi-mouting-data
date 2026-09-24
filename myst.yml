@@ -1,25 +1,26 @@
 version: 1
 
 project:
-  title: TRAINING MATERIALS TITLE
-  github: https://github.com/NFDI-Jupyter/REPOSITORY
+  title: Working with external data storage on Jupyter4NFDI
+  github: https://github.com/apawlik/learn-jupyter4nfdi-mouting-data/
   license: CC-BY-4.0 
   authors:
-    - name: AUTHOR'S NAME
-      orcid: AUTHOR'S ORCID
+    - name: Aleksandra Pawlik
+      orcid: https://orcid.org/0000-0001-8418-6735
    exports:
     - format: pdf
       template: plain_latex_book
-      output: trainingJupyter4NFDI.pdf
+      output: learn-mount-data-on-Jupyter4NFDI.pdf
 
   toc:
-    - file: modules/01_MODULE
-
+    - file: modules/01_introduction.md
+    - file: modules/02_data_mounts.md
+    - file: modules/03_adding_storage_mount.md
 
   # In-page execution (the "power" button at the top of the page) using Thebe
   jupyter:
     binder:
-      repo: NFDI-Jupyter/REPOSITORY
+      repo: apawlik/learn-jupyter4nfdi-mouting-data/
       provider: github
       ref: main
 
